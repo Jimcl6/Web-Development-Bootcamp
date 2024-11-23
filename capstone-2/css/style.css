@@ -1,0 +1,84 @@
+* {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Libre Baskerville", sans !important;
+}
+
+.center-align {
+  align-content: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#hero-section {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  background-image: url("/assets/img/futuristic-cityscape-skyline-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.introduction,
+.profession {
+  color: #000;
+}
+
+.hero-image {
+  /* position: absolute; */
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.profession {
+  font-size: 20px;
+}
+
+#self-summary {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.profile-photo {
+  width: 200px;
+}
+
+.bio-summary {
+  font-size: 1.5em;
+}
+
+@media (max-width: 425px) {
+  .introduction,
+  .profession {
+    color: #fff;
+  }
+}
